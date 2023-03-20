@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.topheader{
+    height:50px;
+    background-color:yellow;
+    font-size:22px;
+    padding:5px;
+}
+.header{
+    height:100px;
+    width: 100%;
+ 
+    font-size:22px;
+    padding:8px;
+   
+}
+.row{
+    width:100%;
+    padding:20px;
+}
+.jan{
+float:left;
+width:4%;
+}
+.uo{
+    height:50px;
+    width:50px;
+}
+.janu{
+   float:left;
+    width:50%;
+  
+    font-size:50px;
+    color:green;
+    padding:5px;
+    margin: 1px 40px
+    }
+.ja{
+     float:right;
+    width:10%;
+   
+    color:red;
+    border:10px solid red;
+    border-radius:5px;
+     
+     }
+.ja:hover{
+        background-color:pink;
+     }
+     .login{
+        text-decoration:none;
+     }
+
+    .menubar{
+        width:100%;
+        background-color: pink;
+       font-size: 20px;
+       height: 45px;
+    }
+    .menubar ul{
+        list-style-type: none;
+        width:100%;
+        height: 20px;
+
+    }
+    .menubar ul li{
+        float:left;
+        margin:5px 80px;
+        padding:10px;
+
+    }
+    .menubar ul li a{
+        display:block;
+text-decoration: none;
+font-weight: bold;
+    }
+    .menubar ul li a:hover{
+       background-color: yellow;
+    }
+ 
+ 
+ 
+.bodypart{
+    height:1800px;
+   
+    font-size:22px;
+}
+.sectitle{
+    color:red;
+    text-align: center;
+
+}
+.courses{
+    width:100%;
+    margin: 0 auto auto;
+ 
+}
+
+.coursediv{
+  border: 3px solid green;
+    box-shadow:3px 6px grey;
+    height:280px;
+  color:red;
+  width:22%;
+  border-radius: 10px;
+  float:left;
+  margin: 25px 15px;
+  text-align: center;
+ 
+}
+.ntr{
+    width:250px;
+    height:200px;
+    border-radius:20px;
+}
+.jr{
+    font-size:25px;
+    text-align:center;
+   
+}
+.milestones{
+    display:flex;
+    flex-direction: row;
+    
+    
+}
+.mams{
+    width:100%;
+    height:300px;
+    width:200px;
+}
+.mastan{
+    width:100%;
+
+}
+.about{
+    font-style: normal;
+    font-weight: bold;
+    background-color:brown;
+    color:azure;
+    text-align:center;
+    
+}
+
+.footer{
+    width: 100%;
+    height:400px;
+    background:black;
+    display:flex;
+    flex:row;
+    color:yellow;
+}
+
+.youtube{
+    color: yellow;
+    margin:30px;
+}
+.social{
+    color: red;
+    margin:30px;
+}
+.submit{
+    color: white;
+    margin:10px;
+    padding:20px;
+}
+.para1{
+    color:azure;
+    text-align: center;
+}
+.para2{
+    color:azure;
+    margin:10 30px;
+    text-align: center;
+}
+.para3{
+    color:azure;
+}
+.button{
+    text-align:center;
+    text-decoration: none;
+   
+    width:10px;
+    text-align:center;
+    font-size: 30px;
+
+}
+.loginform{
+ width:20%;
+ margin:0 auto auto;
+ text-align: center;
+}
+.err{
+    color:yellow;
+}
+.camp{
+    background-color: green;
+    border-radius: 20px;
+}
+.camp:hover{
+    background-color: brown;
+}
+.king{
+    width:30%;
+    
+}
+.nand{
+    background-color:grey;
+    color:aquamarine
+}

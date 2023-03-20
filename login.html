@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>web development</title>
+        <script type="text/javascript">
+          function check(){
+            var name=document.getElementById("name").value;
+            var pwd=document.getElementById("pwd").value;
+            if(name=="sub"&& pwd=="jan"){
+              document.getElementById("form1").action="home.html";
+            }
+            else{
+              document.getElementById("err").innerHTML="tammudu pakkaki velli aduuko.";
+              return false;
+            }
+          }
+        </script>
+    </head>
+    <body>
+        <div class="ramesh">
+    <div class="topheader">
+        <div style="float:left">subbarao</div>
+        <div style="float:right">mr-janatha</div>
+    </div>
+    <div class="header">
+        <div class="row">
+         <div class="jan">
+        <img src="https://res.cloudinary.com/dzasp2ux7/image/upload/v1679081125/subbu_n4hmv4.jpg"class="uo" />
+         </div>
+        <div class="janu">subbarao</div>
+         <div class="ja"><a href="login.html" class="login">SIGN UP FOR FREE</a></div>
+        </div>
+    </div>
+    <div class="menubar">
+      <ul>
+      <li><a href="#footer">mastan</a></li>
+      <li><a href="#about">ramesh</a></li>
+      <li><a href="#buddies">cherry</a></li>
+      <li>nagi</li>
+      </ul>
+   
+    </div>
+    <div class="bodypart">
+        <h1 class="sectitle">LOGIN FORM</h1>
+        <form  id="form1" name="form1" class="loginform" onsubmit="return check()">
+          <p>username</p>
+          <input type="text" id="name" name="name" value="">
+          <p>enter your password</p>
+          <input type="password" id="pwd" name="pwd" value=""><br/>
+          <input type="submit" value="Login"/>
+          
+        </form>
+        <div id="err">
+
+        </div>
+          </div>
+          <h1 class="sectitle"id="footer">footer</h1>
+      <div class="footer" >
+        <div class="first">
+        <h1 class="youtube">youtube links</h1>
+        <div class="para1">
+        <p>java</p>
+        <p>phytho</p>
+        <p>c language</p>
+        <p>css</p>
+        <p>html</p>
+        <p>Bootstrap</p>
+        <p>c++</p>
+        </div>
+        </div>
+        <div class="sec">
+          <h1 class="social">socialmedia links</h1>
+          <div class="para2">
+          <p><a href="#">facebook</a></p>
+          <p><a href="#">Instagram</a></p>
+          <p><a href="#">twitter</a></p>
+           <p><a href="#">youtube</a></p>
+          <p><a href="#">movies</a></p>
+          </div>
+           </div>
+        <div class=third>
+          <div class="para3">
+          <h1 class="submit">submit your request</h1>
+          <p>enter your name</p>
+          <input type="text"  name="name" >
+          <h4>write about your feedback</h4>
+          <textarea rows="7" cols="7">
+
+          </textarea>
+          <div class="button"><a href="#">button</a></div>
+        </div>
+        </div>
+       
+      </div>
+      
+</div>
+
+
+    </body>
+</html>

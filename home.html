@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>web development</title>
+        <script type="text/javascript">
+            function enroll(mem){
+         var message="congratulations mawa\nyour are the one of the fan to "+mem;
+         window.alert(message);
+            }
+        function check(){
+            var urlstring=window.location.search;
+            var checkstr=urlstring.substring(1);
+            var splitarray=checkstr.split('&',2);
+            var name=splitarray[0].substring(splitarray[0].indexOf("=")+1);
+            var pwd=splitarray[1].substring(splitarray[1].indexOf("=")+1);
+
+           if(name=="sub" && pwd=="jan"){
+            alert("your aresuccessfully login to this page");
+           }
+           else{
+            alert("evvudra nuvvu");
+            window.location.href="login.html";
+           }
+        }
+
+        </script>
+    </head>
+    <body onload="check()">
+        <div class="ramesh">
+    <div class="topheader" >
+        <div style="float:left">subbarao</div>
+        <div style="float:right">mr-janatha</div>
+    </div>
+    <div class="header" >
+        <div class="row">
+         <div class="jan">
+        <img src="https://res.cloudinary.com/dzasp2ux7/image/upload/v1679081125/subbu_n4hmv4.jpg "class="uo" />
+         </div>
+        <div class="janu">subbarao</div>
+         <div class="ja"><a href="index.html" class="login">logout</a></div>
+        </div>
+    </div>
+    <div class="menubar">
+      <ul>
+      <li ><a href="#footer">mastan</a></li>
+      <li ><a href="#about">ramesh</a></li>
+      <li> <a href="#buddies">cherry</a></li>
+      <li> <a href="#freinds">nagi</a></li>
+      </ul>
+   
+    </div>
+    <div class="bodypart">
+        <h1 class="sectitle">TFI KINGS</h1>
+        <div class="courses">
+        <div class="coursediv">
+          <img src="https://res.cloudinary.com/dzasp2ux7/image/upload/v1679154235/jr-ntr-health-660x495_qasp5g.jpg" class="ntr"/>
+          <h1 class="jr">i am big fan of jr NTR</h1>
+          <button class="camp" onclick="enroll('KING')">
+            <a href="program.html">BLOOD CAMP</a>
+          </button>
+        </div>
+        <div class="coursediv">
+          <img src="https://res.cloudinary.com/dzasp2ux7/image/upload/v1679155331/zxdYHFXD8JROPAeCHL3WHnyDhK7KSFPXzRsBtm-lermik7N8JuEFbH_Q7FlG9hWQZhic2A4F8g_s900-c-k-c0x00ffffff-no-rj_oytuyl.jpg" class="ntr"/>
+          <h1 class="jr">magesh babu</h1>
+          <button class="camp" onclick="enroll('babu')">
+            <a href="program.html">BLOOD CAMP</a>
+          </button>
+        </div>
+        <div class="coursediv">
+          <img src="https://res.cloudinary.com/dzasp2ux7/image/upload/v1679156078/allu-arjun-1_i6apdl.jpg" class="ntr"/>
+          <h1 class="jr"> allu arjun</h1>
+          <button class="camp" onclick="enroll('icon')">
+            <a href="program.html">BLOOD CAMP</a>
+          </button>
+        </div>
+        <div class="coursediv">
+          <img src="https://res.cloudinary.com/dzasp2ux7/image/upload/v1679156163/E4Qzq9MUYAI__lQ_wb8ghu.jpg" class="ntr"/>
+          <h1 class="jr">i am fan of pspk</h1>
+          <button class="camp" onclick="enroll('pspk')">
+            <a href="program.html">BLOOD CAMP</a>
+          </button>
+        </div>
+        <div class="coursediv">
+          <img src="https://res.cloudinary.com/dzasp2ux7/image/upload/v1679156368/FlU722haMAAV6nm_zvnatp.jpg" class="ntr"/>
+          <h1 class="jr">Jai balayaa </h1>
+          <button class="camp" onclick="enroll('jai')">
+            <a href="program.html">BLOOD CAMP</a>
+          </button>
+        </div>
+        <div class="coursediv">
+          <img src="https://res.cloudinary.com/dzasp2ux7/image/upload/v1679156804/IMG_20220827_143416_fhgrga.jpg" class="ntr"/>
+          <h1 class="jr">mr malhotra</h1>
+          <button class="camp" onclick="enroll('miliniore')">
+            <a href="program.html">BLOOD CAMP</a>
+          </button>
+        </div>
+        <div class="coursediv">
+          <img src="https://res.cloudinary.com/dzasp2ux7/image/upload/v1679157401/IMG_20220827_143510_cjiawj.jpg" class="ntr"/>
+          <h1 class="jr">color boy</h1>
+          <button class="camp" onclick="enroll('champ')">
+          <a href="program.html">BLOOD CAMP</a>
+          </button>
+         </div>
+        <div class="coursediv">
+          <img src="https://res.cloudinary.com/dzasp2ux7/image/upload/v1679081125/subbu_n4hmv4.jpg" class="ntr"/>
+          <h1 class="jr">cat</h1>
+          <button class="camp">
+            <a href="program.html">BLOOD CAMP</a>
+          </button>
+          </div> 
+         </div>
+         <br/>
+         <hr/>
+         <br/>
+         
+         <h1 class="sectitle" id="buddies">buddies</h1>
+         <div class="milestones">
+            <div class="mastan">
+            <marquee><img src="https://res.cloudinary.com/dzasp2ux7/image/upload/v1679206693/IMG_20220201_134922_xuhifh.jpg"class="mams"/></marquee>
+        </div>
+        <div class="mastan">
+            <marquee><img src="https://res.cloudinary.com/dzasp2ux7/image/upload/v1679208385/IMG_20220527_113412_tk4dx1.jpg"class="mams"/></marquee>
+        </div>
+        <div class="mastan">
+            <marquee><img src="https://res.cloudinary.com/dzasp2ux7/image/upload/v1679209275/IMG_20220602_201435_f2q7vz.jpg"class="mams"/></marquee>
+        </div>
+        <div class="mastan">
+            <marquee><img src="https://res.cloudinary.com/dzasp2ux7/image/upload/v1679208847/IMG-20220209-WA0068_ip9i3x.jpg"class="mams"/></marquee>
+        </div>
+        <div class="mastan">
+            <marquee><img src="https://res.cloudinary.com/dzasp2ux7/image/upload/v1679209155/IMG-20220917-WA0011_rbl2qv.jpg"class="mams"/></marquee>
+        </div>
+            </div>
+          <br/>
+          <hr/>
+          <br/>
+          <h1 class="sectitle"id="about">ABOUT</h1>
+          <div>
+            <p class="about"> 
+              INSTAGRAM ID:mr-janatha<br/><br/>
+              fan of NTR<br/><br/>
+              my first web assignment<br/><br/>
+              FACEBOOK ID:subbaraochowdarychowdary<br/><br/>
+              hindusthan institute of technology<br/><br/>
+              <a href="https://www.onlinegdb.com/profile/">GDB COMPILER</a><br/><br/>
+                </p>
+          </div> 
+          </div>
+          <h1 class="sectitle"id="footer">footer</h1>
+      <div class="footer" >
+        <div class="first">
+        <h1 class="youtube">youtube links</h1>
+        <div class="para1">
+        <p>java</p>
+        <p>phytho</p> 
+        <p>c language</p>
+        <p>css</p>
+        <p>html</p>
+        <p>Bootstrap</p>
+        <p>c++</p>
+        </div>
+        </div>
+        <div class="sec">
+          <h1 class="social">socialmedia links</h1>
+          <div class="para2">
+          <p><a href="#">facebook</a></p>
+          <p><a href="#">Instagram</a></p>
+          <p><a href="#">twitter</a></p>
+           <p><a href="#">youtube</a></p>
+          <p><a href="#">movies</a></p>
+          </div>
+           </div>
+        <div class=third>
+          <div class="para3">
+          <h1 class="submit">submit your request</h1>
+          <p>enter your name</p>
+          <input type="text"  name="name" >
+          <h4>write about your feedback</h4>
+          <textarea rows="7" cols="7">
+
+          </textarea>
+          <div class="button"><a href="#">button</a></div>
+        </div>
+        </div>
+       
+      </div>
+      
+</div>
+
+
+    </body>
+</html>
